@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UdeC</title>
+</head>
+<body>
+    <h1>UdeC</h1>
+    <p>Escuela: UNIVERSIDAD DE COLIMA</p>
+    <p>Carrera: Ing. en Tecnología de Internet</p>
+    <p>Semestre: 4B</p>
+    <p>Nombre: Kevin Alejandro Rosales Guzmán</p>
+    <p>Fecha y hora actual: <span id="fecha-hora"></span></p>
+
+    <script>
+        var fechaHora = new Date();
+        var dia = fechaHora.getDate();
+        var mes = fechaHora.getMonth() + 1;
+        var año = fechaHora.getFullYear();
+        var hora = fechaHora.getHours();
+        var minutos = fechaHora.getMinutes();
+
+        var fechaHoraActual = dia + '/' + mes + '/' + año + ' ' + hora + ':' + minutos;
+
+        document.getElementById('fecha-hora').textContent = fechaHoraActual;
+    </script>
+</body>
+</html>

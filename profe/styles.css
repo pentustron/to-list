@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Estilos para el contenedor del campo de entrada y el botón */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el campo de entrada de texto */
+.input-container input[type="text"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #000000; /* Texto en negro */
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+/* Estilos para el botón de añadir tarea */
+.input-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la lista de tareas */
+.task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; /* Eliminar el relleno de la lista */
+    list-style-type: none; /* Eliminar las viñetas */
+}
+
+/* Estilos para cada elemento de la lista de tareas */
+.task-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 5px solid #000000;
+    border-radius: 20px; /* Hacer los bordes más ovalados */
+    background-color: #6ed10b; /* Fondo del contenedor del texto */
+    max-width: 80%; /* Limitar el ancho del texto */
+}
+
+
+
+/* Estilos para el botón de eliminar tarea */
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 80px;
+    cursor: pointer;
+}
